@@ -104,6 +104,7 @@ nav .heberg:hover , .activ:hover {
 }
 .hebergements-and-populaires section {
     border-radius: 0;
+    width: 100%;
 }
 .hebergements-and-populaires .hebergements {
     background-color: white;

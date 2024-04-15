@@ -1,5 +1,7 @@
+/****** Media queries ***********/
+
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media (min-width: 320px) and (max-width: 767.99px) {
 .main-container {
     padding: 0;
     gap: 25px;
@@ -30,7 +32,7 @@ nav .btn :hover {
     cursor: pointer;
     border-top: none;
 }
-nav .heberg {
+nav .heberg:hover , .activ:hover {
     color: #0065FC;
     border-bottom: solid 2px #0065FC;
 }
@@ -162,7 +164,7 @@ footer {
     flex-direction: column;
 }
 footer .list {
-    width: 100%;
+    width: 95%;
 }
 }
 

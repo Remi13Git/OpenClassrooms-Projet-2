@@ -32,6 +32,9 @@ nav .btn :hover {
     cursor: pointer;
     border-top: none;
 }
+nav .heberg , nav .activ {
+    border-bottom: solid 2px #f2f2f2;
+}
 nav .heberg:hover , .activ:hover {
     color: #0065FC;
     border-bottom: solid 2px #0065FC;
@@ -41,7 +44,7 @@ nav .heberg:hover , .activ:hover {
     gap: 25px;
 }
 .filter-section .title {
-    height: 79px;
+    height: auto;
 }
 #search-desktop {
     display: none;
@@ -54,12 +57,13 @@ nav .heberg:hover , .activ:hover {
     color: white;
 }
 .search {
-    justify-content: space-between;
+    /* justify-content: space-between; */
     width: 335px;
+    max-width: 90%;
     margin-top: 10px;
 }
 .search .location-input input {
-    width: 230px;
+    width: 185px;
 }
 .search .location-input ::placeholder {
     text-align: left;
@@ -79,8 +83,10 @@ nav .heberg:hover , .activ:hover {
 }
 .filter .ixp {
     height: 38px;
-    width: 35%;
+    width: 40%;
+    max-width: 120px;
     gap: 10px;
+    padding: 4px 9px 4px 9px;
 }
 .filter .ixp p {
     font-size: 14px;
@@ -165,7 +171,7 @@ footer {
     flex-direction: column;
 }
 footer .list {
-    width: 95%;
+    width: auto;
 }
 }
 
